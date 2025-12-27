@@ -19,8 +19,8 @@ A simple Flutter mobile application demonstrating **multi-page navigation** with
 lib/
 ├── main.dart
 ├── pages/
-│ ├── home_page.dart
-│ ├── about_page.dart
-│ └── contact_page.dart
+│   ├── home_page.dart
+│   ├── about_page.dart
+│   └── contact_page.dart
 └── widgets/
-└── app_drawer.dart
+    └── app_drawer.dart
