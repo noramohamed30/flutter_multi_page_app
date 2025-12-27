@@ -1,51 +1,18 @@
-Overview
+# Flutter Multi-Page App
 
-This Flutter project demonstrates a multi-page mobile application with a reusable navigation drawer and named route navigation. The app includes Home, About, and Contact pages, with consistent UI design, Material 3 support, and responsive layout. It highlights Flutter best practices, such as reusable widgets, clean code structure, and navigation management.
+## Overview
+A simple Flutter mobile application demonstrating **multi-page navigation** with a **reusable drawer widget**. The app includes **Home**, **About**, and **Contact** pages with consistent Material 3 design, images, icons, and interactive buttons.
 
-Features
+## Features
+- Multi-page navigation using **named routes**
+- Reusable **navigation drawer** across all pages
+- Responsive UI with proper padding and alignment
+- Material 3 theming with custom colors
+- Interactive buttons for seamless navigation
 
-Multi-Page Navigation: Navigate between Home, About, and Contact pages using named routes.
+## Pages
+1. **Home Page** – Displays a title, image, and button to navigate to About page.
+2. **About Page** – Displays a title, icon, and button to navigate to Contact page.
+3. **Contact Page** – Displays a title and button to return to Home page.
 
-Reusable Drawer Widget: A custom navigation drawer accessible from all pages.
-
-Responsive UI: Proper padding, centered content, and consistent spacing.
-
-Interactive Widgets: Buttons for page navigation, images, and icons for visual enhancement.
-
-Material 3 Support: Modern UI design with custom colors and theming.
-
-Pages
-
-Home Page
-
-Displays a page title and an image.
-
-Button to navigate to the About page.
-
-Includes navigation drawer.
-
-About Page
-
-Displays a page title and an icon.
-
-Button to navigate to the Contact page.
-
-Includes navigation drawer.
-
-Contact Page
-
-Displays a page title.
-
-Button to navigate back to the Home page.
-
-Includes navigation drawer.
-
-Project Structure
-lib/
-├── main.dart          # Entry point of the app
-├── pages/
-│   ├── home_page.dart
-│   ├── about_page.dart
-│   └── contact_page.dart
-└── widgets/
-    └── app_drawer.dart  # Reusable navigation drawer widget
+## Project Structure
