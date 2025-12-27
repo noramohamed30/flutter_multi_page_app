@@ -16,3 +16,11 @@ A simple Flutter mobile application demonstrating **multi-page navigation** with
 3. **Contact Page** – Displays a title and button to return to Home page.
 
 ## Project Structure
+lib/
+├── main.dart
+├── pages/
+│ ├── home_page.dart
+│ ├── about_page.dart
+│ └── contact_page.dart
+└── widgets/
+└── app_drawer.dart
